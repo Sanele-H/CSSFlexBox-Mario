@@ -1,0 +1,53 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: monospace;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 24px;
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Press Start 2p";
+
+}
+
+    /* The sprite is made of rows (flex containers) */
+.sprite {
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Each row is a horizontal flex container */
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+    /* Each pixel is a square div */
+.p {
+    width: 16px;
+    height: 16px;
+    outline: 1px solid rgba(255, 255, 255, 0.3); 
+
+}
+
+    /* Color palette */
+.r { background: #c03800; } 
+.a{background-color: gold;}  /* red / hat */
+.y { background: #c8a840; }   /* skin / yellow */
+.g { background: #6c7800; }   /* green / overalls */
+.d { background: #804000; }   /* dark brown / shoes */
+._ { background: transparent; } /* empty */
+.w {
+    background: white;
+}
