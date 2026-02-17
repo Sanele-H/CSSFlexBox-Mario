@@ -2,7 +2,7 @@
 
 A learning exercise recreating 8-bit Mario using pure HTML and CSS — no images, no canvas, no JavaScript. Built with **Flexbox**.
 
-![Mario Pixel Art](./screenshot.png)
+![Mario Pixel Art](./screenshot.jpg)
 
 ---
 
